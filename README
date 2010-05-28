@@ -1,0 +1,11 @@
+jLabel is a very simple jQuery plugin that takes a label for an input, and makes it the value of the input.
+
+* Example of markup
+It takes this:
+<label for="name">Full Name:</label>
+<input type="text" id="name" value="" />
+
+Into this:
+<input type="text" id="name" value="Full Name" />
+
+It works like expected - at least, the way i do. On the focus of the input, the label is out, and on blur if there is no content in the input, the label is put back as value of it.
