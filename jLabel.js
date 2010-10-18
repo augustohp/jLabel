@@ -94,7 +94,7 @@
 	$('form').submit(function() {
 		$('.'+config.className).each(function() {
 			_val  = $(this).val();
-			_data = ($this).data('jLabel');
+			_data = $(this).data('jLabel');
 			
 			if ( _data == undefined || _data == "" ) return true;
 			if ( _val == _data ) {
